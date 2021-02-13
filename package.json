@@ -1,0 +1,29 @@
+{
+  "name": "higher-order-functions",
+  "version": "1.0.0",
+  "description": "This repo is created to use and make an example of the higher-order functions in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackatonsForDummies/higher-order-functions.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackatonsForDummies/higher-order-functions/issues"
+  },
+  "homepage": "https://github.com/hackatonsForDummies/higher-order-functions#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/node": "^7.12.16",
+    "@babel/preset-env": "^7.12.16"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
